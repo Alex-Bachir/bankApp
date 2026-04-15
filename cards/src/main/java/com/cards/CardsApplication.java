@@ -1,4 +1,4 @@
-package com.cards.cards;
+package com.cards;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
