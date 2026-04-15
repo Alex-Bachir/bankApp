@@ -1,0 +1,4 @@
+package com.account.controller;
+
+public class AccountsController {
+}
