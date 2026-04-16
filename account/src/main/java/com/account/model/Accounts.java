@@ -1,11 +1,10 @@
 package com.account.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
 
 import java.time.LocalDate;
+import java.util.Date;
 
 @Entity
 @Data
@@ -24,3 +23,4 @@ public class Accounts {
     private LocalDate createDt;
 
 }
+
