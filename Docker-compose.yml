@@ -1,0 +1,38 @@
+
+services:
+  account:
+    image: nower/bankapp:latest
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - bankapp-network
+
+  cards:
+    image: nower/bankapp-cards:latest
+    ports:
+      - "9000:9000"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - bankapp-network
+
+  loans:
+    image: nower/bankapp-loans:latest
+    ports:
+      - "8090:8090"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - bankapp-network
+
+networks:
+  bankapp-network:
+    driver: bridge
