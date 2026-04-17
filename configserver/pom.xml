@@ -64,8 +64,11 @@
 				<version>3.3.2</version>
 				<configuration>
 					<to>
-						<image>Alex-Bachir/${project.artifactId}</image>
+						<image>nower/bankapp-configserver:latest</image>
 					</to>
+					<container>
+						<mainClass>com.configserver.ConfigServerApplication</mainClass>
+					</container>
 				</configuration>
 			</plugin>
 		</plugins>
