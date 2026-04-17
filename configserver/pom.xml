@@ -9,7 +9,7 @@
 		<version>3.4.3</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.jcb826</groupId>
+	<groupId>com.Alex-Bachir</groupId>
 	<artifactId>configserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>configserver</name>
@@ -53,7 +53,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.jcb826.configserver.ConfigserverApplication</mainClass>
+							<mainClass>com.Alex-Bachir.configserver.ConfigserverApplication</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
@@ -64,7 +64,7 @@
 				<version>3.3.2</version>
 				<configuration>
 					<to>
-						<image>jcb826/${project.artifactId}</image>
+						<image>Alex-Bachir/${project.artifactId}</image>
 					</to>
 				</configuration>
 			</plugin>
